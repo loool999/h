@@ -1,0 +1,12 @@
+[package]
+name = "image_analyzer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.24"
+[[bin]]
+name = "image_analyzer"
+path = "src/image_analyzer.rs"

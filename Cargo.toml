@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "image_difference",
+    "image_analyzer",
+    "image_scorer",
+    "image_orchestrator"
+]
+resolver = "2"
